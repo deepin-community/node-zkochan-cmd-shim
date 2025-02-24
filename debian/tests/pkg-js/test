@@ -1,0 +1,3 @@
+cp test/__snapshots__/test.js.snap test/.test.js.snp
+jest --ci -u --moduleDirectories node_modules
+mv -f test/.test.js.snp test/__snapshots__/test.js.snap

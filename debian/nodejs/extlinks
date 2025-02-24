@@ -1,0 +1,9 @@
+del	test
+is-stream	test
+is-windows	test
+memfs	test
+typescript
+@types/is-windows
+@types/jest	test
+@types/node
+unique-string	test
