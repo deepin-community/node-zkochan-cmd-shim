@@ -1,0 +1,20 @@
+{
+  "include": [
+    "**/*.js"
+  ],
+  "exclude": [
+    "**/__snapshots__/**"
+  ],
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "types": ["node","jest"],
+    "noEmit": true
+  },
+  "references": [
+    { "path": ".." }
+  ]
+}
